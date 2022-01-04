@@ -178,7 +178,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def data_display(df):
+def data_print(df):
     """Displays 5 lines of raw data at the users request."""    
     start_line=0
     end_line=5
@@ -208,7 +208,7 @@ def main():
         station_stats(df)
         trip_duration(df)
         user_stats(df)
-        data_display(df)
+        data_print(df)
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':

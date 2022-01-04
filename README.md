@@ -7,7 +7,7 @@
 Bike Share Interactive Summary
 
 ### Description
-Describe what your project is about and what it does
+This python code will allow a user to interactively compile summary statistics about bike sharing in Chicago, New York City and Washington
 
 ### Files used
 Include the files used

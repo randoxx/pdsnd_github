@@ -130,7 +130,7 @@ def station_stats(df):
     print('-'*40)
 
 
-def trip_duration_stats(df):
+def trip_duration(df):
     """Displays statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
@@ -206,7 +206,7 @@ def main():
 
         time_stats(df)
         station_stats(df)
-        trip_duration_stats(df)
+        trip_duration(df)
         user_stats(df)
         data_display(df)
         
